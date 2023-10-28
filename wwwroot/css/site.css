@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+h1 {
+    font-family: "DM Serif Display", Garamond, serif;
+}
+
+p, a {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+}
+
+a.navbar-brand img {
+    height: 70px;
+    width: 70px;
+}
